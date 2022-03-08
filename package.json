@@ -1,0 +1,15 @@
+{
+  "name": "testing_js",
+  "version": "1.0.0",
+  "description": "project to practice testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/Any28Flo/unit-testing-jest.git",
+  "author": "Any28Flo <foglzerika@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
