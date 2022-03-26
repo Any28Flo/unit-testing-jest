@@ -1,5 +1,16 @@
 let password  = "winter is comming";
-
+/*
+    beforeEach executes before each test run
+* */
+beforeEach(()=>{
+    console.log("Before each test");
+})
+/*
+* afterEach -> Executes after each test
+* */
+afterEach(()=>{
+    console.log("Runs after test")
+})
 test("Test string password" , ()=>{
     expect(password).toMatch(/winter/);
 })
