@@ -4,7 +4,9 @@
   "description": "project to practice testing",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testIndex" : "jest src/__test__/index.test.js",
+    "test:watch": "jest --watch"
   },
   "repository": "https://github.com/Any28Flo/unit-testing-jest.git",
   "author": "Any28Flo <foglzerika@gmail.com>",
